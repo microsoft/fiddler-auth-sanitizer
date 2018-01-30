@@ -1,5 +1,14 @@
+# Fiddler Auth Sanitizer
 
-# Contributing
+![Screenshot](images/screenshot.png)
+
+
+## Installation
+1. Copy FiddlerSanitizer.dll into %UserProfile%\Documents\Fiddler2\Scripts
+2. Launch Fiddler
+3. Go to the "Auth Sanitizer" tab and configure as desired
+
+## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
