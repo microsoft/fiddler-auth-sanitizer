@@ -2,11 +2,14 @@
 
 ![Screenshot](images/screenshot.png)
 
-
 ## Installation
 1. Copy FiddlerSanitizer.dll into %UserProfile%\Documents\Fiddler2\Scripts
 2. Launch Fiddler
 3. Go to the "Auth Sanitizer" tab and configure as desired
+
+## Please note
+
+This tool is designed to remove authorization headers from the Telerik Fiddler trace logs, but it may not find or remove all of them.  The trace logs may still contain some sensitive information.  We recommend that you manually check the trace logs for authorization headers and any other sensitive information, prior to sharing.
 
 ## Contributing
 
