@@ -2,6 +2,12 @@
 
 ![Screenshot](images/screenshot.png)
 
+Fiddler Auth Sanitizer is an extension for Telerik Fiddler to assist with removing sensitive information from persisted logs.
+
+## Building
+This plugin can be built using VS2015 or later (or equivalent MSBuild command line build tools).  
+A Fiddler installation is required. The project references Fiddler.exe at "$(LocalAppData)\Programs\Fiddler\Fiddler.exe", but the reference path can be changed if desired.
+
 ## Installation
 1. Copy FiddlerSanitizer.dll into %UserProfile%\Documents\Fiddler2\Scripts
 2. Launch Fiddler
